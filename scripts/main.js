@@ -22,7 +22,8 @@
     "WITH ME?",
     "HAPPY",
     "VALENTINE'S DAY",
-    "I LOVE YOU :)",
+    "I LOVE YOU",
+    "AYRIN :)",
   ];
 
   let canvas,

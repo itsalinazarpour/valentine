@@ -5,7 +5,7 @@ window.requestAnimationFrame =
   window.msRequestAnimationFrame;
 
 var starDensity = 0.216;
-var speedCoeff = 0.05;
+var speedCoeff = 0.1;
 var width;
 var height;
 var starCount;

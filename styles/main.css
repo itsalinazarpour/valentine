@@ -4,6 +4,8 @@
     /* box-sizing: border-box; */
 }
 
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+
 html,
 body {
     width: 100%;
@@ -103,4 +105,38 @@ a:hover {
 #canvas {
     margin: 0 auto;
     max-width: 98%;
+}
+
+.link-github {
+    position: fixed;
+    bottom: 4px;
+    left: 4px;
+
+
+
+}
+
+.link-github button {
+    font-size: 18px;
+    background-color: rgba(2, 66, 203, 0.675);
+    color: rgba(245, 222, 179, 0.623);
+    border: none;
+    font-family: 'SimHei', 'Avenir', 'Helvetica Neue', 'Arial', 'sans-serif';
+    cursor: pointer;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+@media (max-width: 350px) {
+    .link-github button {
+
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 210px) {
+    .link-github button {
+
+        font-size: 13px;
+    }
 }
